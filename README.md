@@ -1,7 +1,8 @@
 puppet-composer
 ===============
 
-[![Build Status](https://secure.travis-ci.org/ehime/puppet-composer.png)](http://travis-ci.org/ehime/puppet-composer)
+[![Build
+Status](https://secure.travis-ci.org/ehime/puppet-composer.png)](http://travis-ci.org/ehime/puppet-composer)
 
 This module installs [Composer](http://getcomposer.org/), a dependency manager
 for PHP.
@@ -9,10 +10,14 @@ for PHP.
 Installation
 ------------
 
-This module doesn't have any hard dependencies but you need a PHP environment
-**and** `wget`.
+Using the Puppet Module Tool, install the
+[`ehime/composer`](http://forge.puppetlabs.com/ehime/composer) by
+running the following command:
 
-Get the module:
+    puppet module install ehime/composer
+
+Otherwise, close this repository and make sure to install the proper
+dependencies ([`puppet-wget`](https://github.com/maestrodev/puppet-wget)):
 
     git clone git://github.com/ehime/puppet-composer.git modules/composer
 
